@@ -1,10 +1,9 @@
 # smart-financial-mapper
 ## Overview
-## Features
-## Project Goals
-## Roadmap
+## Planned Features
 ## Technologies
+## Installation
+## Usage
 ## Project Structure
-## Future Improvements
-## Getting Started
+## Roadmap
 ## License
