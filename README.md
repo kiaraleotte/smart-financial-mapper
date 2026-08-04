@@ -7,7 +7,15 @@ Companies often use different accounting systems, and when data is migrated into
 This project is inspired by a real-world problem experienced by an accountant during company acquisitions, where significant time was spent manually mapping financial data between different systems alongside normal day-to-day responsibilities.
 
 Version 1 will focus on understanding CSV file structures and assisting users with the mapping process. Future versions aim to introduce increasingly intelligent mapping suggestions to further reduce manual effort while allowing users to remain in control of the final mappings.
+
 ## Current Status
+
+This project is currently in the planning and design phase. No implementation has started yet.
+
+- Repository Structure Established.
+- README in progress.
+- Software Design Document in progress.
+
 ## Planned Features
 ## Technologies
 ## Installation
