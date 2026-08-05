@@ -24,8 +24,26 @@
 - The user reviews unmatched columns and manually selects the corresponding destination column for each.
 7. **Review mappings**
 - The user reviews all automatic and manual mappings before saving.
-8. **Save mapping configuration**
-- The system saves the completed mapping configuration for future use.
+8. **Save and export mapping configuration**
+- The system saves the completed mapping configuration for future use, before being exported.
+
+### Alternative Workflow (Invalid File Upload)
+
+1. **Upload source and destination CSV files**
+2. **Validate uploaded files**
+- The system checks that the uploaded files are valid and can be processed.
+3. **Validation fails**
+- The system detects one or more validation errors:
+ - Unsupported file type
+ - Empty file
+ - Corrupted file
+ - Missing column headers
+4. **Display an error message**
+- The system explains why the file cannot be processed.
+5. **Allow the user to upload another file**
+- The user selects a replacement file.
+6. **Repeat Validation**
+- The system validates the newly uploaded file before continuing with the main worklow.
 ## 6. Functional Requirements
 ## 7. Non-Functional Requirements
 ## 8. System Architecture
