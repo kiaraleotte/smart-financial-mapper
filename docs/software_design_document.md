@@ -44,45 +44,83 @@
 - The user selects a replacement file.
 6. **Repeat Validation**
 - The system validates the newly uploaded file before continuing with the main worklow.
+
 ## 6. Functional Requirements
+
 The following describes the functionality planned for Version 1 of Smart Financial Mapper.
 
 **FR01 File Upload**
+
 The system shall allow users to upload a source CSV file and a destination CSV file.
+
 **FR02 File Validation**
+
 The system shall validate uploaded files before processing.
+
 **FR03 Invalid File Rejection**
+
 The system shall reject unsupported, corrupted, unreadable, or empty files.
+
 **FR04 Validation Error Message**
+
 The system shall display an error message explaining why an uploaded file was rejected.
+
 **FR05 File Replacement**
+
 The system shall allow users to replace a rejected file and attempt to re-upload.
+
 **FR06 Column Header Extraction**
+
 The system shall identify and extract column headers from both CSV files.
+
 **FR07 Column Header Display**
+
 The system shall display the extracted source and destination column headers for comparison.
+
 **FR08 Extract Header Comparison**
+
 The system shall compare source and destination column headers to identify exact matches.
+
 **FR09 Automatic Mapping**
+
 The system shall automatically create mappings between columns with identical header.
+
 **FR10 Complete Automatic Mapping**
+
 The system shall inform the user when no unmatched columns remain and allow them to proceed directly to the review stage.
+
 **FR11 Manual Mapping**
+
 The system shall allow users to manually map remaining unmatched source and destination columns.
+
 **FR12 Duplicate Destination Prevention**
+
 The system shall prevent multiple source columns from being mapped to the same destination column.
+
 **FR13 Invalid Mapping Feedback**
+
 The system shall display an error message when a user attempts to map a destination column that has already been mapped.
+
 **FR14 Mapping Review**
+
 The system shall allow users to review all mappings before saving or exporting them.
+
 **FR15 Mapping Modification**
+
 The system shall allow users to modify or remove automatically generated mappings during the review stage.
+
 **FR16 Mapping Method Identification**
+
 The system shall indicate whether each mapping was created automatically or manually.
+
 **FR17 Save Mapping Configuration**
+
 The system shall allow users to save a mapping configuration within the application for later use.
+
 **FR18 Export Mapping Configuration**
+
 The system shall allow users to export a completed mapping configuration to their computer.
+
 ## 7. Non-Functional Requirements
 ## 8. System Architecture
 ## 9. Data Flow
