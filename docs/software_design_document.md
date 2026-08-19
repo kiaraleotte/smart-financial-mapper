@@ -174,6 +174,23 @@ The system shall be structured so that individual components can be modified, wi
 The system shall be designed so that future functionality such as intelligent matching, additional file formats and external accounting-system integrations, can be added without requiring the application to be rewritten.
 
 ## 8. System Architecture
+```mermaid
+flowchart LR
+    UI[Presentation Layer<br/>User Interface]
+    FV[File Validator]
+    HE[Header Extractor]
+    ME[Mapping Engine]
+    MR[Mapping Reviewer]
+    CM[Configuration Manager]
+
+    UI -->|upload CSVs| FV
+    FV -->|valid files| HE
+    HE -->|column header| ME
+    ME -->|auto + manual mappings| MR
+    MR -->|confirmed mappings| CM
+    CM -->|save / export| UI
+```
+
 ## 9. Data Flow
 ## 10. Risks
 ## 11. Future Features
