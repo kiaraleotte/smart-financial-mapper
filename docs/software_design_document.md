@@ -192,5 +192,24 @@ flowchart LR
 ```
 
 ## 9. Data Flow
+```mermaid
+flowchart TB
+    UI[User Interface]
+    FV[File Validator]
+    HE[Header Extractor]
+    ME[Mapping Engine]
+    MR[Mapping Reviewer]
+    CM[Configuration Manager]
+    Err[Return error to User Interface]
+
+    UI -->|Upload source + destination CSVs| FV
+    FV -->|Invalid file| Err
+    Err -->|User replaces file| UI
+    FV -->|Valid files| HE
+    HE -->|Column headers| ME
+    ME -->|Automatic mappings + unmatched columns| MR
+    MR -->|User reviews, maps + confirms| CM
+    CM -->|Save / Export configuration| UI
+```
 ## 10. Risks
 ## 11. Future Features
