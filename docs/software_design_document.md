@@ -1,7 +1,7 @@
 # Software Design Document
 ## 1. Project Overview
 
-Smart Financial Mapper is a tool designed to help users map columns between different accounting systems during financial data migrations. Version 1 focuses on CSV files and supports both automatic and exact-name matching and manual mapping. Users can review their mappings before saving or exporting the completed mapping configuration. Version 1 doesn't modify or migrate the underlying CSV data. The long-term aim is to reduce the time and risk involved in manually matching columns when companies migrate, upgrade, or consolidate financial systems.
+Smart Financial Mapper is a tool designed to help users map columns between different accounting systems during financial data migrations. Version 1 focuses on CSV files and supports both automatic exact-name matching and manual mapping. Users can review their mappings before saving or exporting the completed mapping configuration. Version 1 doesn't modify or migrate the underlying CSV data. The long-term aim is to reduce the time and risk involved in manually matching columns when companies migrate, upgrade, or consolidate financial systems.
 
 ## 2. Problem Statement
 
@@ -36,7 +36,7 @@ When organisations move financial data between accounting systems, the column na
 3. **Extract column headers**
 - The system reads both files and identifies their column names.
 4. **Display column headers for comparison**
-- The system dysplays the source and destination columns side by side so the user can compare their structures.
+- The system displays the source and destination columns side by side so the user can compare their structures.
 5. **Automatically match identical column names**
 - The system identifies columns with exact matching names and suggests these as mappings.
 6. **Manually map remaining unmatched columns**
@@ -62,7 +62,7 @@ When organisations move financial data between accounting systems, the column na
 5. **Allow the user to upload another file**
 - The user selects a replacement file.
 6. **Repeat Validation**
-- The system validates the newly uploaded file before continuing with the main worklow.
+- The system validates the newly uploaded file before continuing with the main workflow.
 
 ## 6. Functional Requirements
 
@@ -96,13 +96,13 @@ The system shall identify and extract column headers from both CSV files.
 
 The system shall display the extracted source and destination column headers for comparison.
 
-**FR08 Extract Header Comparison**
+**FR08 Exact Header Comparison**
 
 The system shall compare source and destination column headers to identify exact matches.
 
 **FR09 Automatic Mapping**
 
-The system shall automatically create mappings between columns with identical header.
+The system shall automatically create mappings between columns with identical headers.
 
 **FR10 Complete Automatic Mapping**
 
@@ -295,6 +295,7 @@ Accept Excel (.xlsx), fixed-width, and other common accounting export formats in
 Support simple transformations during mapping (e.g. trimming whitespace, changing date formats, concatenating fields).
 
 **Apply mappings to underlying data**
+
 Use a completed mapping configuration to transform source data into the destination structure and generate a migrated output file.
 
 **Multilingual interface**
