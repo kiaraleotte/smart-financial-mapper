@@ -8,6 +8,13 @@ Smart Financial Mapper is a tool designed to help users map columns between diff
 When organisations move financial data between accounting systems, the column names in the source and destination files often do not match. For example, one system may use Acct_Num while another uses Account_Number for the same information. Someone has to manually identify which columns correspond to each other. This process is time-consuming, repetitive, and prone to human error, especially during company acquisitions or system upgrades. The problem is made worse when staff must carry out this work alongside their normal responsibilities. 
 
 ## 3. Project Goals
+
+- Reduce the time spent manually mapping columns between accounting systems.
+- Minimise the risk of incorrect mappings during data migrations.
+- Provide a clear and simple workflow that does not require technical knowledge of file formats.
+- Deliver a working Version 1 that supports CSV files with exact-name matching and manual mapping.
+- Design the system so that more advanced matching and additional file formats can be added later without major rewrites.
+
 ## 4. Stakeholders
 ## 5. User Workflow 
 ### Main Workflow (Successful CSV Mapping)
