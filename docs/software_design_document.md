@@ -1,5 +1,8 @@
 # Software Design Document
 ## 1. Project Overview
+
+Smart Financial Mapper is a tool designed to help users map columns between different accounting systems during financial data migrations. Version 1 focuses on CSV files and supports both automatic and exact-name matching and manual mapping. Users can review their mappings before saving or exporting the completed mapping configuration. Version 1 doesn't modify or migrate the underlying CSV data. The long-term aim is to reduce the time and risk involved in manually matching columns when companies migrate, upgrade, or consolidate financial systems.
+
 ## 2. Problem Statement
 ## 3. Project Goals
 ## 4. Stakeholders
