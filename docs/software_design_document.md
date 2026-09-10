@@ -246,3 +246,42 @@ Mitigated by processing only the data required for Version 1, avoiding unnecessa
 Mitigated by restricting access to uploaded data and saved configurations, securely handling sensitive data throughout processing, and ensuring that users can only access data they are authorised to view.
 
 ## 11. Future Features
+
+**Intelligent column matching**
+
+Use fuzzy matching, similarity scoring, or machine-learning techniques to suggest mappings for columns with different but related names.
+
+**Improved guidance for unmatched columns**
+
+Provide clearer suggestions or side-by-side sample data to help users make better manual mapping decisions.
+
+**Multilingual column matching**
+
+Allow the mapping engine to recognise equivalent column meanings across different languages, helping users map files produced by international accounting systems.
+
+**Reusable mapping templates**
+
+Extend saved mapping configurations into named templates that can be organised and reused across clients, systems, or repeated migration processes.
+
+**Mapping history and audit trails**
+
+Keep a record of previous mapping sessions so users can review or restore earlier configurations.
+
+**Support for additional file formats**
+
+Accept Excel (.xlsx), fixed-width, and other common accounting export formats in addition to CSV.
+
+**Basic data transformation rules**
+
+Support simple transformations during mapping (e.g. trimming whitespace, changing date formats, concatenating fields).
+
+**Apply mappings to underlying data**
+Use a completed mapping configuration to transform source data into the destination structure and generate a migrated output file.
+
+**Multilingual interface**
+
+Support multiple interface languages so the application can be used more easily by users in different countries and organisations.
+
+**Integration with accounting systems**
+
+Direct connectors or import/export support for popular accounting platforms to reduce the need for manual file handling.
