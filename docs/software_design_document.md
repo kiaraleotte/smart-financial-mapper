@@ -16,6 +16,12 @@ When organisations move financial data between accounting systems, the column na
 - Design the system so that more advanced matching and additional file formats can be added later without major rewrites.
 
 ## 4. Stakeholders
+
+- **Primary users** - Accountants, finance staff, and data migration specialists who need to map columns between systems.
+- **Secondary users** - IT staff or consultants supporting financial system migrations.
+- **Organisations undergoing financial system migrations** - Have an interest in ensuring financial data is mapped accurately, securely, and efficiently.
+- **Project owner/developer** - Responsible for the design, development, and maintenance of the tool.
+
 ## 5. User Workflow 
 ### Main Workflow (Successful CSV Mapping)
 
