@@ -304,3 +304,7 @@ Support multiple interface languages so the application can be used more easily 
 **Integration with accounting systems**
 
 Direct connectors or import/export support for popular accounting platforms to reduce the need for manual file handling.
+
+## 12. Appendix/Design Notes
+
+Open Design Decisions
