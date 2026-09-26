@@ -17,6 +17,15 @@ This project is currently in the planning and design phase. No implementation ha
 - Software Design Document in progress.
 
 ## Planned Features
+
+- Upload source and destination CSV files.
+- Validate uploaded files.
+- Extract and display column headers.
+- Automatically map columns with identical names.
+- Manually map remaining unmatched columns.
+- Review and edit mappings before saving or exporting.
+- Save and export mapping configurations.
+
 ## Technologies
 ## Installation
 ## Usage
