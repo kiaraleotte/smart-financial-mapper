@@ -53,5 +53,18 @@ Once implemented, the application will allow users to:
 7. Save or export the mapping configuration.
 
 ## Project Structure
+
+```text
+smart-financial-mapper/
+├── doc/
+|   ├── software_design_document.md
+|   ├── developer_journal.md
+|   ├── research.md
+|   └── roadmap.md
+├── src/
+|   └── main.py
+└── README.md
+```
+
 ## Roadmap
 ## License
