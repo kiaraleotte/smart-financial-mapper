@@ -41,6 +41,17 @@ This project is currently in the planning and design phase. No implementation ha
 Installation instructions will be added once Version 1 implementation begins.
 
 ## Usage
+
+Once implemented, the application will allow users to: 
+
+1. Upload a source CSV file and a destination CSV file.
+2. Validate the uploaded files.
+3. View the column headers from both files.
+4. Review automatically created mappings for identical headers.
+5. Manually map any remaining unmatched columns.
+6. Review and edit the completed mappings.
+7. Save or export the mapping configuration.
+
 ## Project Structure
 ## Roadmap
 ## License
