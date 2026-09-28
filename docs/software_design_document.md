@@ -44,7 +44,7 @@ When organisations move financial data between accounting systems, the column na
 7. **Review mappings**
 - The user reviews all automatic and manual mappings before saving.
 8. **Save and export mapping configuration**
-- The system saves the completed mapping configuration for future use, before being exported.
+- The user saves the completed mapping configuration for future use and/or exports it to their computer.
 
 ### Alternative Workflow (Invalid File Upload)
 
