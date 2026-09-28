@@ -67,4 +67,10 @@ smart-financial-mapper/
 ```
 
 ## Roadmap
+
+1. Complete project documentation.
+2. Implement core Version 1 functionality (file handling, exact matching, manual mapping, review, save/export).
+3. Testing and refinement.
+4. Begin working on intelligent matching and support for additional file formats.
+
 ## License
