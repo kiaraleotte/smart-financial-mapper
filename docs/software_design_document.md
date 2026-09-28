@@ -148,47 +148,43 @@ The following non-functional requirements define the expected quality, reliabili
 
 The system shall process supported CSV files within a reasonable amount of time.
 
-**NFR02 Performance Targets**
-
-Specific performance targets shall be defined after the initial CSV-processing functionality has been implemented and tested.
-
-**NFR03 Ease of Use**
+**NFR02 Ease of Use**
 
 The system shall provide a clear and understandable workflow for users without requiring technical knowledge of CSV processing.
 
-**NFR04 User Feedback**
+**NFR03 User Feedback**
 
 The system shall provide clear feedback when an action is successful, fails, or requires further input from the user.
 
-**NFR05 Error Handling**
+**NFR04 Error Handling**
 
 The system shall handle invalid or unexpected input without causing the application to crash.
 
-**NFR06 Progress Preservation**
+**NFR05 Progress Preservation**
 
 The system shall preserve saved mapping configurations so users can return to them at a later time.
 
-**NFR07 Mapping Integrity**
+**NFR06 Mapping Integrity**
 
 The system shall preserve confirmed mappings unless the user chooses to modify them.
 
-**NFR08 Export Integrity**
+**NFR07 Export Integrity**
 
 The system shall ensure exported mapping configurations accurately reflect the mappings reviewed and confirmed by the user.
 
-**NFR09 Data Protection**
+**NFR08 Data Protection**
 
 The system shall protect uploaded financial data from unauthorised access.
 
-**NFR10 Sensitive Data Handling**
+**NFR09 Sensitive Data Handling**
 
 The system shall avoid retaining sensitive uploaded data longer than necessary for the mapping process, unless storage is required for an explicitly supported feature.
 
-**NFR11 Maintainable Structure**
+**NFR10 Maintainable Structure**
 
 The system shall be structured so that individual components can be modified, without requiring major changes to unrelated parts of the application.
 
-**NFR12 Future Extensibility**
+**NFR11 Future Extensibility**
 
 The system shall be designed so that future functionality such as intelligent matching, additional file formats and external accounting-system integrations, can be added without requiring the application to be rewritten.
 
@@ -309,3 +305,5 @@ Direct connectors or import/export support for popular accounting platforms to r
 ## 12. Appendix/Design Notes
 
 Open Design Decisions
+
+Establish a measurable performance target after the initial CSV-processing functionality has been implemented and tested.
