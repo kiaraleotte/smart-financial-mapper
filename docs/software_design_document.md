@@ -230,33 +230,49 @@ flowchart TB
 
 **R01 - Incorrect automatic mappings**
 
+High impact, medium likelihood.
+
 Mitigated by a clear review step, visual distinction between automatic and manual mappings, and allowing users to modify or remove incorrect mappings before saving or exporting.
 
 **R02 - Sensitive financial data retained for too long**
+
+High impact, low likelihood.
 
 Mitigated by processing uploaded files without unnecessary persistent storage, saving only mapping configurations, and defining appropriate retention and deletion rules for any temporary data.
 
 **R03 - Malformed or unexpected CSV files**
 
+Medium impact, medium likelihood.
+
 Mitigated by file validation, clear error messages, and allowing the user to replace invalid files.
 
 **R04 - User makes incorrect manual mappings**
+
+Medium impact, medium likelihood.
 
 Mitigated by preventing duplicate destination mappings, allowing mappings to be modified or removed during review, and requiring confirmation before saving or exporting.
 
 **R05 - Exact-name matching is too limited**
 
+Medium impact, high likelihood.
+
 Accepted for Version 1. Manual mapping remains available, and the architecture is designed so more intelligent matching can be added later without major rewrites.
 
 **R06 - Scope creep beyond Version 1**
+
+Medium impact, medium likelihood.
 
 Mitigated by clearly defined Version 1 boundaries and recording future features separately.
 
 **R07 - Performance issues with large CSV files**
 
+Low-medium impact, low likelihood.
+
 Mitigated by processing only the data required for Version 1, avoiding unnecessary retention of full row data, and testing with representative file sizes to establish performance targets.
 
 **R08 - Unauthorised access to sensitive financial data** 
+
+High impact, low likelihood.
 
 Mitigated by restricting access to uploaded data and saved configurations, securely handling sensitive data throughout processing, and ensuring that users can only access data they are authorised to view.
 
