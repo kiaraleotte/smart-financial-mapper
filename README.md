@@ -74,3 +74,5 @@ smart-financial-mapper/
 4. Begin working on intelligent matching and support for additional file formats.
 
 ## License
+
+To be decided.
