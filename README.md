@@ -56,7 +56,7 @@ Once implemented, the application will allow users to:
 
 ```text
 smart-financial-mapper/
-├── doc/
+├── docs/
 |   ├── software_design_document.md
 |   ├── developer_journal.md
 |   ├── research.md
