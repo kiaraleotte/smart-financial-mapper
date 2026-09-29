@@ -322,4 +322,6 @@ Direct connectors or import/export support for popular accounting platforms to r
 
 Open Design Decisions
 
-Establish a measurable performance target after the initial CSV-processing functionality has been implemented and tested.
+- Establish a measurable performance target after the initial CSV-processing functionality has been implemented and tested.
+- Mapping configuration format. Format used to represent saved mapping configurations has not been finalised. JSON is being considered.
+- Storage/retrieval implementation. Where is the application storing the configurations and how will it retrieve them?
