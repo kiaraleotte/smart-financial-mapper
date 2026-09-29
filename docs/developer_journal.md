@@ -35,7 +35,7 @@ This stage focused primarily on understanding the problem and planning the syste
 
 - Version 1 will use exact-name matching alongside manual mapping.
 - Version 1 will produce mapping configurations rather than transform the underlying CSV data.
-- Mapping reveiw logic will be separated from the User Interface to improve testability and extensibility.
+- Mapping review logic will be separated from the User Interface to improve testability and extensibility.
 - Future functionality such as intelligent matching, additional file formats, data transformation, and integrations will remain outside Version 1.
 
 ### Challenges/Learning
@@ -57,7 +57,7 @@ This stage focused primarily on understanding the problem and planning the syste
 ## Identified for Future Revision
 
 - Move NFR02 to Appendix/Design Notes - needs testing later.
-- Add impact and likelyhood ratings to Risks section.
+- Add impact and likelihood ratings to Risks section.
 - Review Mermaid diagram formatting.
 - Refine the Mapping Reviewer data flow.
 
@@ -80,7 +80,7 @@ This stage focused primarily on understanding the problem and planning the syste
 ### Next Steps
 - Review the README with the Software Design Document for consistency.
 - Return to remaining SDD revisions.
-- Add a structured roadmap to poject.
+- Add a structured roadmap to project.
 - Begin preparing for V1 implementation.
 
 ---
@@ -94,8 +94,8 @@ This stage focused primarily on understanding the problem and planning the syste
 - Review and revised the SDD:
     - Moved performance target (NFR02) to Appendix/Design Notes.
     - Clarified save and export workflow.
-    - Added risk impact and likelyhood ratings to Risks.
-    - Add to open design decisions (mapping configuration format, storage and retrieval implementaion).
+    - Added risk impact and likelihood ratings to Risks.
+    - Add to open design decisions (mapping configuration format, storage and retrieval implementation).
 
 ### Next Steps
 
