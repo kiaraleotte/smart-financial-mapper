@@ -67,3 +67,38 @@ This stage focused primarily on understanding the problem and planning the syste
 - Finish README.
 - Finish project Roadmap.
 - Begin Version 1 implementation.
+
+---
+
+## 26th-27th September 2026 - README Development
+
+### Progress 
+
+- Completed planned features in README.
+- Completed remaining README sections including a defined V1 technology stack.
+
+### Next Steps
+- Review the README with the Software Design Document for consistency.
+- Return to remaining SDD revisions.
+- Add a structured roadmap to poject.
+- Begin preparing for V1 implementation.
+
+---
+
+## 28th-29th September - README and SDD Editing
+
+
+### Progress
+
+- Reviewed README.
+- Review and revised the SDD:
+    - Moved performance target (NFR02) to Appendix/Design Notes.
+    - Clarified save and export workflow.
+    - Added risk impact and likelyhood ratings to Risks.
+    - Add to open design decisions (mapping configuration format, storage and retrieval implementaion).
+
+### Next Steps
+
+- Begin implementation.
+- Decide the format used to represent saved mapping configurations.
+- Decide the implementation used to store and retrieve mapping configurations.
