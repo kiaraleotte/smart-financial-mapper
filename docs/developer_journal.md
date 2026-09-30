@@ -102,3 +102,20 @@ This stage focused primarily on understanding the problem and planning the syste
 - Begin implementation.
 - Decide the format used to represent saved mapping configurations.
 - Decide the implementation used to store and retrieve mapping configurations.
+
+## 1st October 2026 - Exploring Tech Stacks
+
+### Progress
+
+- Started setting up the development environment. 
+- Created a virtual environment and tested Streamlit with a basic file upload interface.
+
+### Decisions
+
+- Currently evaluating Streamlit for the Version 1 user interface because it allows rapid prototyping. I am Still considering FastAPI (possibly with a separate frontend) for later stages, especially if the project needs a more formal API.
+- No final decision has been made yet.
+
+### Next Steps
+
+- Decide whether to continue with Streamlit or switch to FastAPI.
+- Continue implementing the core mapping workflow.
