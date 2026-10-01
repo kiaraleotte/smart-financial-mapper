@@ -29,10 +29,9 @@ This project is currently in the planning and design phase. No implementation ha
 ## Technologies
 
 - **Python** - Core programming language.
-- **FastAPI** - backend API.
+- **Streamlit** - User interface and application framework.
 - **Pandas** - CSV processing and data handling.
 - **Pydantic** - Data validation and structured data models.
-- **React** - Frontend user interface.
 - **PostgreSQL** - Storage for mapping configurations.
 - **Pytest** - Automated testing.
 
