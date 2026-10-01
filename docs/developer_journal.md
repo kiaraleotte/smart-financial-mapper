@@ -103,7 +103,7 @@ This stage focused primarily on understanding the problem and planning the syste
 - Decide the format used to represent saved mapping configurations.
 - Decide the implementation used to store and retrieve mapping configurations.
 
-## 1st October 2026 - Exploring Tech Stacks
+## 1st October 2026 (Morning) - Exploring Tech Stacks
 
 ### Progress
 
@@ -119,3 +119,26 @@ This stage focused primarily on understanding the problem and planning the syste
 
 - Decide whether to continue with Streamlit or switch to FastAPI.
 - Continue implementing the core mapping workflow.
+
+---
+
+## 1st October 2026 (Evening) - Exploring Tech Stacks
+
+### Progress
+
+- Researched and decided whether to use Streamlit or FastAPI.
+- Updated README with new technology stack.
+
+
+### Decisions 
+
+- Decided to continue with Streamlit to allow more focus on core mapping functionality and for faster development.
+- FastAPI will not be included in V1 unless a specific requirement for an API emerges.
+- React will not be included in V1 because a separate front end is not required.
+- The current V1 stack is Python, Streamlit, Pandas, Pydantic, PostgreSQL, and Pytest.
+- FastAPI and React will be considered in future versions if the application develops a need for a separate front end or an API.
+
+### Next Steps
+
+- Continue implementing V1 functionality including file validation.
+
